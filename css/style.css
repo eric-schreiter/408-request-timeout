@@ -340,257 +340,173 @@ body {
 	}
 	15.0003% {
         content: '9';
-		background-image: linear-gradient(to right, #30cfd0 9%, #330867 9%);
+		background-image: linear-gradient(to right, #30cfd0 9%, #330867 91%);
 		color:hsl(0,0%,95%);
 	}
 	16.667% {
         content: '10';
-		background-image: linear-gradient(to right, #30cfd0 10%, #330867 10%);
+		background-image: linear-gradient(to right, #30cfd0 10%, #330867 90%);
 		color:hsl(0,0%,95%);
 	}
 	18.3337% {
         content: '11';
-		background-image: linear-gradient(to right, #30cfd0 11%, #330867 11%);
+		background-image: linear-gradient(to right, #30cfd0 11%, #330867 89%);
 		color:hsl(0,0%,95%);
 	}
 	20.0004% {
         content: '12';
-		background-image: linear-gradient(to right, #30cfd0 12%, #330867 12%);
+		background-image: linear-gradient(to right, #30cfd0 12%, #330867 88%);
 		color:hsl(0,0%,95%);
 	}
 	21.6671% {
         content: '13';
-		background-image: linear-gradient(to right, #30cfd0 13%, #330867 13%);
+		background-image: linear-gradient(to right, #30cfd0 13%, #330867 87%);
 		color:hsl(0,0%,95%);
 	}
 	23.3338% {
         content: '14';
-		background-image: linear-gradient(to right, #30cfd0 15%, #330867 15%);
+		background-image: linear-gradient(to right, #30cfd0 15%, #330867 86%);
 		color:hsl(0,0%,95%);
 	}
 	26% {
-		content: '';
+		content: '15';
 	}
 	27% {
-		content: '';
+		content: '16';
 	}
 	28% {
-		content: '';
+		content: '17';
 	}
 	29% {
-		content: '';
+		content: '18';
 	}
 	30% {
-		content: '';
+		content: '19';
 	}
 	31% {
-		content: '';
+		content: '20';
 	}
 	32% {
-		content: '';
+		content: '21';
 	}
 	33% {
-		content: '';
+		content: '22';
 	}
 	34% {
-		content: '';
+		content: '23';
 	}
 	35% {
-		content: '';
+		content: '24';
 	}
 	36% {
-		content: '';
+		content: '25';
 	}
 	37% {
-		content: '';
+		content: '26';
 	}
 	38% {
-		content: '';
+		content: '27';
 	}
 	39% {
-		content: '';
-	}
+		content: '28';
+	
 	40% {
-		content: '';
+		content: '29';
 	}
 	41% {
-		content: '';
+		content: '30';
 	}
 	42% {
-		content: '';
+		content: '31';
 	}
 	43% {
-		content: '';
+		content: '32';
 	}
 	44% {
-		content: '';
+		content: '33';
 	}
 	45% {
-		content: '';
+		content: '34';
 	}
 	46% {
-		content: '';
+		content: '35';
 	}
 	47% {
-		content: '';
+		content: '36';
 	}
 	48% {
-		content: '';
+		content: '37';
 	}
 	49% {
-		content: '';
+		content: '38';
 	}
 	50% {
-		content: '';
+		content: '39';
 	}
 	51% {
-		content: '';
+		content: '40';
 	}
 	52% {
-		content: '';
+		content: '41';
 	}
 	53% {
-		content: '';
+		content: '42';
 	}
 	54% {
-		content: '';
+		content: '43';
 	}
 	55% {
-		content: '';
+		content: '44';
 	}
 	56% {
-		content: '';
+		content: '45';
 	}
 	57% {
-		content: '';
+		content: '46';
 	}
 	58% {
-		content: '';
+		content: '47';
 	}
 	59% {
-		content: '';
+		content: '48';
 	}
 	60% {
-		content: '';
+		content: '49';
 	}
 	61% {
-		content: '';
+		content: '50';
 	}
 	62% {
-		content: '';
+		content: '51';
 	}
 	63% {
-		content: '';
+		content: '52';
 	}
 	64% {
-		content: '';
+		content: '53';
 	}
 	65% {
-		content: '';
+		content: '54';
 	}
 	66% {
-		content: '';
+		content: '55';
 	}
 	67% {
-		content: '';
+		content: '56';
 	}
 	68% {
-		content: '';
+		content: '57';
 	}
 	69% {
-		content: '';
+		content: '58';
 	}
 	70% {
-		content: '';
+		content: '59';
 	}
 	71% {
-		content: '';
+		content: '60';
 	}
 	72% {
-		content: '';
-	}
-	73% {
-		content: '';
-	}
-	74% {
-		content: '';
-	}
-	75% {
-		content: '';
-	}
-	76% {
-		content: '';
-	}
-	77% {
-		content: '';
-	}
-	78% {
-		content: '';
-	}
-	79% {
-		content: '';
-	}
-	80% {
-		content: '';
-	}
-	81% {
-		content: '';
-	}
-	82% {
-		content: '';
-	}
-	83% {
-		content: '';
-	}
-	84% {
-		content: '';
-	}
-	85% {
-		content: '';
-	}
-	86% {
-		content: '';
-	}
-	87% {
-		content: '';
-	}
-	88% {
-		content: '';
-	}
-	89% {
-		content: '';
-	}
-	90% {
-		content: '';
-	}
-	91% {
-		content: '';
-	}
-	92% {
-		content: '';
-	}
-	93% {
-		content: '';
-	}
-	94% {
-		content: '';
-	}
-	95% {
-		content: '';
-	}
-	96% {
-		content: '';
-	}
-	97% {
-		content: '';
-	}
-	98% {
-		content: '';
-	}
-	99% {
-		content: '';
-	}
-	100% {
-		content: '403 Forbidden';
+		content: '408 Request Timeout !!!';
 	}
 }
