@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 body {
 	height:100%;
     width:100%;
-	background-image: linear-gradient(to right, #30cfd0 20%, #330867 80%);
-	color:hsl(0,0%,95%);
+	background:#000;
+		color:hsl(0,0%,95%);
 }   
 .animate {
 	position: absolute;
@@ -17,7 +19,10 @@ body {
    
 .animate:before {
 	width:100%;
-	display:block;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	font-size: 7.5vw;
 	height:100%;
 	content: '408 Request Timeout!';
 	-webkit-animation-name: animate;
@@ -26,6 +31,8 @@ body {
 	animation-duration: 6s;
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
+	font-family: 'VT323', monospace;
+	transition:background 1s ease;
 }
    
    @-webkit-keyframes animate {
@@ -301,301 +308,304 @@ body {
 @keyframes animate {
 	0% {
 		content: '1';
-		background-image: linear-gradient(to right, #30cfd0 1%, #330867 99%);
+		background:#000;
+		color:hsl(0,0%,95%);
+
 	}
 	1.6667% {
 		content: '2';
-		background-image: linear-gradient(to right, #30cfd0 2%, #330867 98%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
+
 	}
 	5.0001% {
 		content: '3';
-		background-image: linear-gradient(to right, #30cfd0 3%, #330867 97%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	6.6668% {
 		content: '4';
-		background-image: linear-gradient(to right, #30cfd0 4%, #330867 96%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	8.3335% {
 		content: '5';
-		background-image: linear-gradient(to right, #30cfd0 5%, #330867 95%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	10.0002% {
 		content: '6';
-		background-image: linear-gradient(to right, #30cfd0 6%, #330867 94%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	11.6669% {
         content: '7';
-		background-image: linear-gradient(to right, #30cfd0 7%, #330867 93%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	13.3336% {
         content: '8';
-		background-image: linear-gradient(to right, #30cfd0 8%, #330867 92%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	15.0003% {
         content: '9';
-		background-image: linear-gradient(to right, #30cfd0 9%, #330867 91%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	16.667% {
         content: '10';
-		background-image: linear-gradient(to right, #30cfd0 10%, #330867 90%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	18.3337% {
         content: '11';
-		background-image: linear-gradient(to right, #30cfd0 11%, #330867 89%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	20.0004% {
         content: '12';
-		background-image: linear-gradient(to right, #30cfd0 12%, #330867 88%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	21.6671% {
         content: '13';
-		background-image: linear-gradient(to right, #30cfd0 13%, #330867 87%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	23.3338% {
         content: '14';
-		background-image: linear-gradient(to right, #30cfd0 14%, #330867 86%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	25.0005% {
 		content: '15';
-		background-image: linear-gradient(to right, #30cfd0 15%, #330867 85%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	26.6672% {
 		content: '16';
-		background-image: linear-gradient(to right, #30cfd0 16%, #330867 84%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	28.3339% {
 		content: '17';
-		background-image: linear-gradient(to right, #30cfd0 17%, #330867 83%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	30.0006% {
 		content: '18';
-		background-image: linear-gradient(to right, #30cfd0 18%, #330867 82%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	31.6673% {
 		content: '19';
-		background-image: linear-gradient(to right, #30cfd0 19%, #330867 81%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	33.334% {
 		content: '20';
-		background-image: linear-gradient(to right, #30cfd0 20%, #330867 80%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	35.0007% {
 		content: '21';
-		background-image: linear-gradient(to right, #30cfd0 19%, #330867 81%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	36.6674% {
 		content: '22';
-		background-image: linear-gradient(to right, #30cfd0 18%, #330867 82%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	38.3341% {
 		content: '23';
-		background-image: linear-gradient(to right, #30cfd0 17%, #330867 83%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	40.0008% {
 		content: '24';
-		background-image: linear-gradient(to right, #30cfd0 16%, #330867 84%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	41.6675% {
 		content: '25';
-		background-image: linear-gradient(to right, #30cfd0 15%, #330867 85%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	43.3342% {
 		content: '26';
-		background-image: linear-gradient(to right, #30cfd0 14%, #330867 86%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	45.0009% {
 		content: '27';
-		background-image: linear-gradient(to right, #30cfd0 13%, #330867 87%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	46.6676% {
 		content: '28';
-		background-image: linear-gradient(to right, #30cfd0 12%, #330867 88%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	48.3343% {
 		content: '29';
-		background-image: linear-gradient(to right, #30cfd0 11%, #330867 89%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	50.001% {
 		content: '30';
-		background-image: linear-gradient(to right, #30cfd0 10%, #330867 90%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	51.6677% {
 		content: '31';
-		background-image: linear-gradient(to right, #30cfd0 9%, #330867 91%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	53.3344% {
 		content: '32';
-		background-image: linear-gradient(to right, #30cfd0 8%, #330867 92%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	55.0011% {
 		content: '33';
-		background-image: linear-gradient(to right, #30cfd0 7%, #330867 93%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	56.6678% {
 		content: '34';
-		background-image: linear-gradient(to right, #30cfd0 6%, #330867 94%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	58.3345% {
 		content: '35';
-		background-image: linear-gradient(to right, #30cfd0 5%, #330867 95%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	60.0012% {
 		content: '36';
-		background-image: linear-gradient(to right, #30cfd0 4%, #330867 96%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	61.6679% {
 		content: '37';
-		background-image: linear-gradient(to right, #30cfd0 3%, #330867 97%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	63.3346% {
 		content: '38';
-		background-image: linear-gradient(to right, #30cfd0 2%, #330867 98%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	65.0013% {
 		content: '39';
-		background-image: linear-gradient(to right, #30cfd0 1%, #330867 99%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	66.668% {
 		content: '40';
-		background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	68.3347% {
 		content: '41';
-		background-image: linear-gradient(to right, #30cfd0 1%, #330867 99%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	70.0014% {
 		content: '42';
-		background-image: linear-gradient(to right, #30cfd0 2%, #330867 98%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	71.6681% {
 		content: '43';
-		background-image: linear-gradient(to right, #30cfd0 3%, #330867 97%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	73.3348% {
 		content: '44';
-		background-image: linear-gradient(to right, #30cfd0 4%, #330867 96%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	75.0015% {
 		content: '45';
-		background-image: linear-gradient(to right, #30cfd0 5%, #330867 95%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	76.6682% {
 		content: '46';
-		background-image: linear-gradient(to right, #30cfd0 6%, #330867 94%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	78.3349% {
 		content: '47';
-		background-image: linear-gradient(to right, #30cfd0 7%, #330867 93%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	80.0016% {
 		content: '48';
-		background-image: linear-gradient(to right, #30cfd0 8%, #330867 92%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	81.6683% {
 		content: '49';
-		background-image: linear-gradient(to right, #30cfd0 9%, #330867 91%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	83.335% {
 		content: '50';
-		background-image: linear-gradient(to right, #30cfd0 10%, #330867 90%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	85.0017% {
 		content: '51';
-		background-image: linear-gradient(to right, #30cfd0 11%, #330867 89%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	86.6684% {
 		content: '52';
-		background-image: linear-gradient(to right, #30cfd0 12%, #330867 88%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	88.3351% {
 		content: '53';
-		background-image: linear-gradient(to right, #30cfd0 13%, #330867 87%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	90.0018% {
 		content: '54';
-		background-image: linear-gradient(to right, #30cfd0 14%, #330867 86%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	91.6685% {
 		content: '55';
-		background-image: linear-gradient(to right, #30cfd0 15%, #330867 85%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	93.3352% {
 		content: '56';
-		background-image: linear-gradient(to right, #30cfd0 16%, #330867 84%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	95.0019% {
 		content: '57';
-		background-image: linear-gradient(to right, #30cfd0 17%, #330867 83%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	96.6686% {
 		content: '58';
-		background-image: linear-gradient(to right, #30cfd0 18%, #330867 82%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 	98.3353% {
 		content: '59';
-		background-image: linear-gradient(to right, #30cfd0 19%, #330867 81%);
+		background:#000;
 		color:hsl(0,0%,95%);
 	}
 	100% {
 		content: '60';
-		background-image: linear-gradient(to right, #30cfd0 20%, #330867 80%);
-		color:hsl(0,0%,95%);
+		background:#fff;
+		color:hsl(0,0%,5%);
 	}
 }
