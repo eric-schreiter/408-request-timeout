@@ -1,8 +1,8 @@
 body {
 	height:100%;
     width:100%;
-    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
-        color:hsl(0,0%,95%);
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+	color:hsl(0,0%,95%);
 }   
 .animate {
 	position: absolute;
@@ -21,9 +21,9 @@ body {
 	height:100%;
 	content: '403 forbidden';
 	-webkit-animation-name: animate;
-	-webkit-animation-duration: 6s;
+	-webkit-animation-duration: 60s;
 	animation-name: animate;
-	animation-duration: 6s;
+	animation-duration: 60s;
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 }
@@ -301,86 +301,71 @@ body {
 @keyframes animate {
 	0% {
 		content: '1';
-		background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+		background-image: linear-gradient(to right, #30cfd0 1%, #330867 99%);
 	}
 	1.6667% {
 		content: '2';
-        background-color: #42378f;
-        background-image: linear-gradient(315deg, #42378f 0%, #f53844 76%);
+		background-image: linear-gradient(to right, #30cfd0 2%, #330867 98%);
 		color:hsl(0,0%,95%);
 	}
 	5.0001% {
 		content: '3';
-		background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 78%);
+		background-image: linear-gradient(to right, #30cfd0 3%, #330867 97%);
 		color:hsl(0,0%,95%);
 	}
 	6.6668% {
 		content: '4';
-		background-color: #21D4FD;
-		background-image: linear-gradient(19deg, #21D4FD 5.0001%, #B721FF 94.9999%);background-color: #42378f;
-        background-image: linear-gradient(315deg, #42378f 0%, #f53844 80%);
+		background-image: linear-gradient(to right, #30cfd0 4%, #330867 96%);
 		color:hsl(0,0%,95%);
 	}
 	8.3335% {
 		content: '5';
-		background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 82%);
+		background-image: linear-gradient(to right, #30cfd0 5%, #330867 95%);
 		color:hsl(0,0%,95%);
 	}
 	10.0002% {
 		content: '6';
-		background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 84%);
+		background-image: linear-gradient(to right, #30cfd0 6%, #330867 94%);
 		color:hsl(0,0%,95%);
 	}
 	11.6669% {
         content: '7';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 86%);
+		background-image: linear-gradient(to right, #30cfd0 7%, #330867 93%);
 		color:hsl(0,0%,95%);
 	}
 	13.3336% {
         content: '8';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 88%);
+		background-image: linear-gradient(to right, #30cfd0 8%, #330867 92%);
 		color:hsl(0,0%,95%);
 	}
 	15.0003% {
         content: '9';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 90%);
+		background-image: linear-gradient(to right, #30cfd0 9%, #330867 9%);
 		color:hsl(0,0%,95%);
 	}
 	16.667% {
         content: '10';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 92%);
+		background-image: linear-gradient(to right, #30cfd0 10%, #330867 10%);
 		color:hsl(0,0%,95%);
 	}
 	18.3337% {
         content: '11';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 94%);
+		background-image: linear-gradient(to right, #30cfd0 11%, #330867 11%);
 		color:hsl(0,0%,95%);
 	}
 	20.0004% {
         content: '12';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 96%);
+		background-image: linear-gradient(to right, #30cfd0 12%, #330867 12%);
 		color:hsl(0,0%,95%);
 	}
 	21.6671% {
         content: '13';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 98%);
+		background-image: linear-gradient(to right, #30cfd0 13%, #330867 13%);
 		color:hsl(0,0%,95%);
 	}
 	23.3338% {
         content: '14';
-        background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 100%);
+		background-image: linear-gradient(to right, #30cfd0 15%, #330867 15%);
 		color:hsl(0,0%,95%);
 	}
 	26% {
