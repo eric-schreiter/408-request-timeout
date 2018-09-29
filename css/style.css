@@ -3,7 +3,7 @@
 body {
 	height:100%;
     width:100%;
-	background:#fff;
+	background:#000;
 		color:hsl(0,0%,5%);
 }   
 .animate {
@@ -14,6 +14,7 @@ body {
 	left:0;
 	right:0;
 	padding: 0;
+	background: #000;
 	border: 0;
 }
    
@@ -26,13 +27,13 @@ body {
 	height:100%;
 	content: '408 Request Timeout!';
 	-webkit-animation-name: animate;
-	-webkit-animation-duration: 6s;
+	-webkit-animation-duration: 9s;
 	animation-name: animate;
-	animation-duration: 6s;
+	animation-duration: 9s;
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 	font-family: 'VT323', monospace;
-	transition:all .5s ease;
+	transition:all .1s;
 }
    
    @-webkit-keyframes animate {
@@ -315,7 +316,7 @@ body {
 	}
 	1.6667% {
 		content: '2';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 		font-size:50vw;
 
@@ -328,7 +329,7 @@ body {
 	}
 	6.6668% {
 		content: '4';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 		font-size:50vw;
 	}
@@ -340,7 +341,7 @@ body {
 	}
 	10.0002% {
 		content: '6';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	11.6669% {
@@ -350,7 +351,7 @@ body {
 	}
 	13.3336% {
         content: '8';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	15.0003% {
@@ -360,7 +361,7 @@ body {
 	}
 	16.667% {
         content: '10';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	18.3337% {
@@ -370,7 +371,7 @@ body {
 	}
 	20.0004% {
         content: '12';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	21.6671% {
@@ -380,7 +381,7 @@ body {
 	}
 	23.3338% {
         content: '14';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	25.0005% {
@@ -390,7 +391,7 @@ body {
 	}
 	26.6672% {
 		content: '16';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	28.3339% {
@@ -400,7 +401,7 @@ body {
 	}
 	30.0006% {
 		content: '18';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	31.6673% {
@@ -410,7 +411,7 @@ body {
 	}
 	33.334% {
 		content: '20';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	35.0007% {
@@ -420,7 +421,7 @@ body {
 	}
 	36.6674% {
 		content: '22';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	38.3341% {
@@ -430,7 +431,7 @@ body {
 	}
 	40.0008% {
 		content: '24';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	41.6675% {
@@ -440,7 +441,7 @@ body {
 	}
 	43.3342% {
 		content: '26';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	45.0009% {
@@ -450,7 +451,7 @@ body {
 	}
 	46.6676% {
 		content: '28';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	48.3343% {
@@ -460,7 +461,7 @@ body {
 	}
 	50.001% {
 		content: '30';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	51.6677% {
@@ -470,7 +471,7 @@ body {
 	}
 	53.3344% {
 		content: '32';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	55.0011% {
@@ -480,7 +481,7 @@ body {
 	}
 	56.6678% {
 		content: '34';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	58.3345% {
@@ -490,7 +491,7 @@ body {
 	}
 	60.0012% {
 		content: '36';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	61.6679% {
@@ -500,7 +501,7 @@ body {
 	}
 	63.3346% {
 		content: '38';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	65.0013% {
@@ -510,7 +511,7 @@ body {
 	}
 	66.668% {
 		content: '40';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	68.3347% {
@@ -520,7 +521,7 @@ body {
 	}
 	70.0014% {
 		content: '42';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	71.6681% {
@@ -530,7 +531,7 @@ body {
 	}
 	73.3348% {
 		content: '44';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	75.0015% {
@@ -540,7 +541,7 @@ body {
 	}
 	76.6682% {
 		content: '46';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	78.3349% {
@@ -550,7 +551,7 @@ body {
 	}
 	80.0016% {
 		content: '48';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	81.6683% {
@@ -560,7 +561,7 @@ body {
 	}
 	83.335% {
 		content: '50';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	85.0017% {
@@ -570,7 +571,7 @@ body {
 	}
 	86.6684% {
 		content: '52';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	88.3351% {
@@ -580,7 +581,7 @@ body {
 	}
 	90.0018% {
 		content: '54';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	91.6685% {
@@ -590,7 +591,7 @@ body {
 	}
 	93.3352% {
 		content: '56';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	95.0019% {
@@ -600,7 +601,7 @@ body {
 	}
 	96.6686% {
 		content: '58';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	98.3353% {
@@ -610,7 +611,7 @@ body {
 	}
 	100% {
 		content: '60';
-		background:#fff;
+		background:#6a6a6a;
 		color:hsl(0,0%,5%);
 	}
 	101.6667% {
