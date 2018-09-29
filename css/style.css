@@ -3,8 +3,8 @@
 body {
 	height:100%;
     width:100%;
-	background:#000;
-		color:hsl(0,0%,95%);
+	background:#fff;
+		color:hsl(0,0%,5%);
 }   
 .animate {
 	position: absolute;
@@ -22,7 +22,7 @@ body {
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	font-size: 7.5vw;
+	font-size: 12.5vw;
 	height:100%;
 	content: '408 Request Timeout!';
 	-webkit-animation-name: animate;
@@ -32,7 +32,7 @@ body {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 	font-family: 'VT323', monospace;
-	transition:background 1s ease;
+	transition:all .5s ease;
 }
    
    @-webkit-keyframes animate {
@@ -310,28 +310,33 @@ body {
 		content: '1';
 		background:#000;
 		color:hsl(0,0%,95%);
+		font-size:25vw;
 
 	}
 	1.6667% {
 		content: '2';
 		background:#fff;
 		color:hsl(0,0%,5%);
+		font-size:50vw;
 
 	}
 	5.0001% {
 		content: '3';
 		background:#000;
 		color:hsl(0,0%,95%);
+		font-size:25vw;
 	}
 	6.6668% {
 		content: '4';
 		background:#fff;
 		color:hsl(0,0%,5%);
+		font-size:50vw;
 	}
 	8.3335% {
 		content: '5';
 		background:#000;
 		color:hsl(0,0%,95%);
+		font-size:25vw;
 	}
 	10.0002% {
 		content: '6';
@@ -607,5 +612,9 @@ body {
 		content: '60';
 		background:#fff;
 		color:hsl(0,0%,5%);
+	}
+	101.6667% {
+		background:#000;
+		color:hsl(0,0%,95%);
 	}
 }
