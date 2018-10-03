@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body {
 	height:100%;
     width:100%;
 	background:#000;
-		color:hsl(0,0%,5%);
+		color:hsl(0,0%,95%);
+	content:''
 }   
 .animate {
 	position: absolute;
@@ -17,605 +18,184 @@ body {
 	background: #000;
 	border: 0;
 }
-   
 .animate:before {
 	width:100%;
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	font-size: 12.5vw;
+	font-size: 10vw;
 	height:100%;
-	content: '408 Request Timeout!';
-	-webkit-animation-name: animate;
-	-webkit-animation-duration: 9s;
+	content: 'somewhere';
 	animation-name: animate;
-	animation-duration: 9s;
-	-webkit-animation-delay: 0s;
+	animation-duration: 7s;
 	animation-delay: 0s;
-	font-family: 'VT323', monospace;
-	transition:all .1s;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-   
-   @-webkit-keyframes animate {
-       0% {
-           content: 'hard-working';
-       }
-       13% {
-           content: '';
-       }
-       14% {
-           content: '';
-       }
-		 15% {
-           content: '';
-       }
-		 16% {
-           content: '';
-       }
-		 17% {
-           content: '';
-       }
-		 18% {
-           content: '';
-       }
-		 19% {
-           content: '';
-       }
-		 20% {
-           content: '';
-       }
-		 21% {
-           content: '';
-       }
-		 22% {
-           content: '';
-       }
-		 23% {
-           content: '';
-       }
-		 24% {
-           content: '';
-       }
-		 25% {
-           content: '';
-       }
-		 26% {
-           content: '';
-       }
-		 27% {
-           content: '';
-       }
-		 28% {
-           content: '';
-       }
-		 29% {
-           content: '';
-       }
-		 30% {
-           content: '';
-       }
-		 31% {
-           content: '';
-       }
-		        32% {
-           content: '';
-       }
-       33% {
-           content: '';
-       }
-		 34% {
-           content: '';
-       }
-		 35% {
-           content: '';
-       }
-		 36% {
-           content: '';
-       }
-		 37% {
-           content: '';
-       }
-		 38% {
-           content: '';
-       }
-		 39% {
-           content: '';
-       }
-		 40% {
-           content: '';
-       }
-		 41% {
-           content: '';
-       }
-		 42% {
-           content: '';
-       }
-		 43% {
-           content: '';
-       }
-		 44% {
-           content: '';
-       }
-		 45% {
-           content: '';
-       }
-		 46% {
-           content: '';
-       }
-		 47% {
-           content: '';
-       }
-		 48% {
-           content: '';
-       }
-		 49% {
-           content: '';
-       }
-		 50% {
-           content: '';
-       }
-		        51% {
-           content: '';
-       }
-       52% {
-           content: '';
-       }
-		 53% {
-           content: '';
-       }
-		 54% {
-           content: '';
-       }
-		 55% {
-           content: '';
-       }
-		 56% {
-           content: '';
-       }
-		 57% {
-           content: '';
-       }
-		 58% {
-           content: '';
-       }
-		 59% {
-           content: '';
-       }
-		 60% {
-           content: '';
-       }
-		 61% {
-           content: '';
-       }
-		 62% {
-           content: '';
-       }
-		 63% {
-           content: '';
-       }
-		 64% {
-           content: '';
-       }
-		 65% {
-           content: '';
-       }
-		 66% {
-           content: '';
-       }
-		 67% {
-           content: '';
-       }
-		 68% {
-           content: '';
-       }
-		 69% {
-           content: '';
-       }
-		 70% {
-           content: '';
-       }
-		 71% {
-           content: '';
-       }
-		 72% {
-           content: '';
-       }
-		 73% {
-           content: '';
-       }
-		 74% {
-           content: '';
-       }
-		 75% {
-           content: '';
-       }
-		 76% {
-           content: '';
-       }
-		 77% {
-           content: '';
-       }
-		 78% {
-           content: '';
-       }
-		 79% {
-           content: '';
-       }
-		 80% {
-           content: '';
-       }
-		 81% {
-           content: '';
-       }
-		 82% {
-           content: '';
-       }
-		 83% {
-           content: '';
-       }
-		 84% {
-           content: '';
-       }
-		 85% {
-           content: '';
-       }
-		 86% {
-           content: '';
-       }
-		 87% {
-           content: '';
-       }
-     88% {
-           content: '';
-       }
-		 89% {
-           content: '';
-       }
-		 90% {
-           content: '';
-       }
-		 91% {
-           content: '';
-       }
-		 92% {
-           content: '';
-       }
-		 93% {
-           content: '';
-       }
-		 94% {
-           content: '';
-       }
-		 95% {
-           content: '';
-       }
-		 96% {
-           content: '';
-       }
-		 97% {
-           content: '';
-       }
-		 98% {
-           content: '';
-       }
-		 99% {
-           content: '';
-       }
-		 100% {
-           content: '';
-       }
-   }
    
 @keyframes animate {
 	0% {
-		content: '1';
+		content: 'What';
 		background:#000;
 		color:hsl(0,0%,95%);
-		font-size:25vw;
-
 	}
-	1.6667% {
-		content: '2';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-		font-size:50vw;
-
-	}
-	5.0001% {
-		content: '3';
-		background:#000;
-		color:hsl(0,0%,95%);
-		font-size:25vw;
-	}
-	6.6668% {
-		content: '4';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-		font-size:50vw;
-	}
-	8.3335% {
-		content: '5';
-		background:#000;
-		color:hsl(0,0%,95%);
-		font-size:25vw;
-	}
-	10.0002% {
-		content: '6';
-		background:#6a6a6a;
+	2% {
+		content: 'is';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	11.6669% {
-        content: '7';
+	4% {
+		content: 'the';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	13.3336% {
-        content: '8';
-		background:#6a6a6a;
+	6% {
+		content: 'most';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	15.0003% {
-        content: '9';
+	8% {
+		content: 'resilient';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	16.667% {
-        content: '10';
-		background:#6a6a6a;
+	12.8% {
+		content: 'parasite?';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	18.3337% {
-        content: '11';
+	17.6% {
+        content: 'Bacteria ?';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	20.0004% {
-        content: '12';
-		background:#6a6a6a;
+	22.4% {
+        content: 'A virus?';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	21.6671% {
-        content: '13';
+	27.2% {
+        content: 'An intestinal worm?';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	23.3338% {
-        content: '14';
-		background:#6a6a6a;
+	32% {
+        content: 'An idea.';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	25.0005% {
-		content: '15';
+	54% {
+        content: 'Resilient...';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	26.6672% {
-		content: '16';
-		background:#6a6a6a;
+	56% {
+        content: 'Once';
+		background:#000;
+		color:hsl(0,0%,95%);
+	}
+	58% {
+        content: 'an';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	28.3339% {
-		content: '17';
+	60% {
+		content: 'idea';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	30.0006% {
-		content: '18';
-		background:#6a6a6a;
+	62% {
+		content: 'has';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	31.6673% {
-		content: '19';
+	64% {
+		content: 'taken';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	33.334% {
-		content: '20';
-		background:#6a6a6a;
+	66% {
+		content: 'hold';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	35.0007% {
-		content: '21';
+	68% {
+		content: 'of';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	36.6674% {
-		content: '22';
-		background:#6a6a6a;
+	70% {
+		content: 'the';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	38.3341% {
-		content: '23';
+	72% {
+		content: 'brain';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	40.0008% {
-		content: '24';
-		background:#6a6a6a;
+	74% {
+		content: 'its';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	41.6675% {
-		content: '25';
+	76% {
+		content: 'almost';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	43.3342% {
-		content: '26';
-		background:#6a6a6a;
+	78% {
+		content: 'impossible';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	45.0009% {
-		content: '27';
+	80% {
+		content: 'to';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	46.6676% {
-		content: '28';
-		background:#6a6a6a;
+	82% {
+		content: 'eradicate.';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	48.3343% {
-		content: '29';
+	84% {
+		content: 'An idea';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	50.001% {
-		content: '30';
-		background:#6a6a6a;
+	86% {
+		content: 'that is';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	51.6677% {
-		content: '31';
+	88% {
+		content: 'fully formed';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	53.3344% {
-		content: '32';
-		background:#6a6a6a;
+	90% {
+		content: 'fully understood';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	55.0011% {
-		content: '33';
+	92% {
+		content: 'that sticks';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	56.6678% {
-		content: '34';
-		background:#6a6a6a;
+	94% {
+		content: 'right';
+		background:#FFF;
 		color:hsl(0,0%,5%);
 	}
-	58.3345% {
-		content: '35';
+	96% {
+		content: 'in';
 		background:#000;
 		color:hsl(0,0%,95%);
 	}
-	60.0012% {
-		content: '36';
-		background:#6a6a6a;
+	98% {
+		content: 'there';
+		background:#FFF;
 		color:hsl(0,0%,5%);
-	}
-	61.6679% {
-		content: '37';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	63.3346% {
-		content: '38';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	65.0013% {
-		content: '39';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	66.668% {
-		content: '40';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	68.3347% {
-		content: '41';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	70.0014% {
-		content: '42';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	71.6681% {
-		content: '43';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	73.3348% {
-		content: '44';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	75.0015% {
-		content: '45';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	76.6682% {
-		content: '46';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	78.3349% {
-		content: '47';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	80.0016% {
-		content: '48';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	81.6683% {
-		content: '49';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	83.335% {
-		content: '50';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	85.0017% {
-		content: '51';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	86.6684% {
-		content: '52';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	88.3351% {
-		content: '53';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	90.0018% {
-		content: '54';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	91.6685% {
-		content: '55';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	93.3352% {
-		content: '56';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	95.0019% {
-		content: '57';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	96.6686% {
-		content: '58';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	98.3353% {
-		content: '59';
-		background:#000;
-		color:hsl(0,0%,95%);
-	}
-	100% {
-		content: '60';
-		background:#6a6a6a;
-		color:hsl(0,0%,5%);
-	}
-	101.6667% {
-		background:#000;
-		color:hsl(0,0%,95%);
 	}
 }
